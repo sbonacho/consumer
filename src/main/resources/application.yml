@@ -1,0 +1,8 @@
+kafka:
+  bootstrap-servers: 172.16.123.1:9092
+
+connector:
+  topics:
+    app: test
+    domain: production
+  group: clients
