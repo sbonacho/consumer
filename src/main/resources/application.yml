@@ -3,6 +3,6 @@ kafka:
 
 connector:
   topics:
-    app: test
-    domain: production
+    control: control
+    test: test
   group: clients

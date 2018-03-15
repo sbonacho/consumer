@@ -1,6 +1,6 @@
-package com.soprasteria.seda.examples.insurance;
+package com.soprasteria.seda.load.consumer;
 
-import com.soprasteria.seda.examples.insurance.bus.kafka.listeners.Listener;
+import com.soprasteria.seda.load.consumer.bus.kafka.listeners.Listener;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Autowired;
