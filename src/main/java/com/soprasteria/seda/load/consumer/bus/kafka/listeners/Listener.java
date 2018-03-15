@@ -25,9 +25,12 @@ public class Listener {
 
     @KafkaListener(topics = "${connector.topics.test}")
     public void consumeTest(String event) {
-        measure.add(event.length(), false);
-        if (measure.isFinished()) {
-            LOGGER.info("{}", measure);
+        LOGGER.info(event);
+        if (measure != null) {
+            measure.add(event.length(), false);
+            if (measure.isFinished()) {
+                LOGGER.info("{}", measure);
+            }
         }
     }
 
