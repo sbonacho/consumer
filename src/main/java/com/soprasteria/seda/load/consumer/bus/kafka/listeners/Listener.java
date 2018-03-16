@@ -36,6 +36,7 @@ public class Listener {
     @KafkaListener(topics = "${connector.topics.control}")
     public void consumeControl(String json) {
         try {
+            LOGGER.info("Scenario config received: {}", json);
             ExecutionConfig config = mapper.readValue(json, ExecutionConfig.class);
             if (config.getTopic().equals(topic)) {
                 measure = new Measure(config.getTopic(), config.getMessages());
