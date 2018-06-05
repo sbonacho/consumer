@@ -1,8 +1,8 @@
-package com.soprasteria.seda.load.consumer.bus.kafka.listeners;
+package com.sbonacho.seda.load.consumer.bus.kafka.listeners;
 
 import com.fasterxml.jackson.databind.ObjectMapper;
-import com.soprasteria.seda.load.consumer.measures.Measure;
-import com.soprasteria.seda.load.model.ExecutionConfig;
+import com.sbonacho.seda.load.consumer.measures.Measure;
+import com.sbonacho.seda.load.model.ExecutionConfig;
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 import org.springframework.beans.factory.annotation.Value;

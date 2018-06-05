@@ -1,4 +1,4 @@
-package com.soprasteria.seda.load.model;
+package com.sbonacho.seda.load.model;
 
 import java.io.Serializable;
 

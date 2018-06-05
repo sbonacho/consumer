@@ -9,7 +9,7 @@ This microservice subscribe control topic and test topic and count the number of
 Install de service and start this service.
 
 ```
-git clone https://innersource.soprasteria.com/kafka-load-tester/consumer
+git clone https://github.com/sbonacho/consumer.git
 cd consumer
 mvn spring-boot:run
 ```
@@ -87,7 +87,7 @@ mvn install dockerfile:build
 This command starts the service with domain-clients name
 
 ```
-docker run --rm -dit -p 8080:8080 --name domain-clients soprasteria/consumer
+docker run --rm -dit -p 8080:8080 --name domain-clients sbonacho/consumer
 ```
 
 Watching logs

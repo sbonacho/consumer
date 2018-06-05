@@ -1,4 +1,4 @@
-package com.soprasteria.seda.load.consumer.measures;
+package com.sbonacho.seda.load.consumer.measures;
 
 import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
